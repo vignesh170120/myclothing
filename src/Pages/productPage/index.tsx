@@ -38,21 +38,7 @@ function Productpage() {
             </PriceTag>
             <ButtonContainer>
               <BuyContainer>
-                {/* <IncButton
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            onClick={() => dispatch(quantity((increaseQuantity ?? 0) + 1))}
-          >
-            +
-          </IncButton> */}
-
-                {/* <DecButton
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            onClick={() => dispatch(quantity((increaseQuantity ?? 0) - 1))}
-          >
-            -
-          </DecButton> */}
+           
               </BuyContainer>
               <BuyButton
                 whileHover={{ scale: 1.05 }}

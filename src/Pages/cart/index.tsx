@@ -120,7 +120,7 @@ function Cart() {
           Place Order
         </PlaceOrderButton>
       </DetailSide>
-      <Modal title="Basic Modal" footer={[
+      <Modal title="Place Order" footer={[
         <Button key="submit" type="primary" style={{ backgroundColor: "#E93D67", color: "white" }} loading={loading} onClick={() => {
           setLoading(true);
           setTimeout(() => {
@@ -130,9 +130,8 @@ function Cart() {
         }}>
           Submit
         </Button>]} open={isModalOpen} onCancel={() => setIsModalOpen(false)}>
-        <p>Some contents...</p>
-        <p>Some contents...</p>
-        <p>Some contents...</p>
+       
+        <p>Order Placed successfully...</p>
       </Modal>
     </CartItemContainer >
   );
